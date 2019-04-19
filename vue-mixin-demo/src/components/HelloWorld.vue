@@ -79,6 +79,11 @@ export default {
   props: {
     msg: String
   },
+  data: function() {
+    return {
+      bar: "bar"
+    };
+  },
   created: function() {
     console.log(this.foo);
   }

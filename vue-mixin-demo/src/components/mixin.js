@@ -14,6 +14,7 @@ export default {
         hello: function () {
             console.log('hello from mixin!')
             hello.hello();
+            console.log(this.bar);
         }
     }
 }
